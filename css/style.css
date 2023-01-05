@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a, li {
+    text-decoration: none;
+    list-style: none;
+    color: #252B42;
+}
+
+/* Menu */
+
+#cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#cabecalho img {
+    padding-left: 90px;
+    padding-top: 26.12px;
+}
+.menu {
+    display: flex;
+    padding-right: 50px;
+    margin-top: 63px;
+}
+
+.menu li {
+    margin-left: 114px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.home {
+    color: #fa4a0c;
+}
+
+/* Banner */
+
+.img-relative .banner {
+    width: 100%;
+    height: 100%;
+}
+
+.img-relative {
+    position: relative;
+    padding-top: 64px;
+    display: block;
+}
+
+.conteudo-absolute {
+    text-align: center;
+    position: absolute;
+    top: 165px;
+    left: 460px;
+}
+
+.conteudo-absolute h3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #f7f7f7;
+}
+.conteudo-absolute h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    padding-top: 17px;
+    padding-bottom: 27px;
+}
+.conteudo-absolute p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    padding-bottom: 54px;
+}
+
+.playstore {
+    width: 236px;
+    height: 68px;
+    border-radius: 30px;
+    background-color: #fa4a0c;
+    border: none;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-weight: 700;
+    margin-right: 34px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+}
+.appstore {
+    width: 236px;
+    height: 68px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.img-app {
+    position: relative;
+    bottom: 320px;
+    left: 550px;
+    display: inline-block;
+}
+.img-app .app-interior {
+    position: relative;
+    right: 240px;
+    bottom: 100px;
+}
+
+
+
+.conteudo-app .barra {
+    position: relative;
+    bottom: 128px;
+    left: 475px;
+}
+
+.conteudo-app h1 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+.criar-conta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 59px;
+}
+.criar-conta h3 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #fa4a0c;
+}
+.criar-conta h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.criar-conta h4 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
