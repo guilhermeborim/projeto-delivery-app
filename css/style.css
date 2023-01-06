@@ -41,8 +41,9 @@ a, li {
 /* Banner */
 
 .img-relative .banner {
-    width: 100%;
+    width: 100vw;
     height: 100%;
+    object-fit: cover;
 }
 
 .img-relative {
@@ -147,7 +148,7 @@ a, li {
 .criar-conta {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-bottom: 59px;
 }
 .criar-conta h3 {
@@ -165,6 +166,7 @@ a, li {
     line-height: 57px;
     letter-spacing: 0.2px;
     color: #252B42;
+    padding: 17px 0px 27px 0px;
 }
 .criar-conta h4 {
     font-family: 'Montserrat';
@@ -173,4 +175,108 @@ a, li {
     line-height: 38px;
     letter-spacing: 0.2px;
     color: #737373;
+}
+
+/*Banner-Final  */
+
+.banner-relative {
+    position: relative;
+}
+
+.banner-relative img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-absolute {
+    position: absolute;
+    top: 200px;
+    left: 580px;
+    text-align: center;
+}
+
+.banner-absolute h2 {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+}
+.banner-absolute h4 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.banner-absolute .playstore-final {
+    width: 142px;
+    height: 64px;
+    background-color: #fa4a0c;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    border: none;
+    margin-right: 16px;
+}
+.banner-absolute .appstore-final {
+    width: 163px;
+    height: 60px;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.final {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 68px;
+    padding-top: 58px;
+}
+
+.final .instagram {
+    width: 33px;
+    height: 33px;
+}
+
+.redes-sociais img {
+    padding-left: 32px;
+}
+
+.final p {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #5c5c5c;
+}
+
+.footer {
+    padding: 50px 0px 50px 0px;
+    background-color:  #f1f1f1c0;
+}
+
+.footer p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 0.2px;
 }
