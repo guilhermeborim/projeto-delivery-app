@@ -10,6 +10,10 @@ a, li {
     color: #252B42;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* Menu */
 
 #cabecalho {
